@@ -1,0 +1,25 @@
+.pangio-form {
+    width: 100%;
+}
+
+.pangio-input-wrapper {
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+
+.pangio-input-wrapper:last-child {
+    margin: 0;
+}
+
+.pangio-label {
+    display: block;
+}
+
+.pangio-input {
+    border-radius: var(--input-border-radius);
+    padding: var(--input-padding);
+    outline: var(--input-outline);
+    border: var(--input-border);
+    width: var(--input-width);
+    font: var(--input-font);
+}
