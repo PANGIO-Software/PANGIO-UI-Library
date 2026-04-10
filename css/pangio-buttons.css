@@ -1,0 +1,54 @@
+.pangio-btn {
+    transition: var(--btn-background-color-transition);
+    text-decoration: var(--btn-text-decoration);
+    border-radius: var(--btn-border-radius);
+    padding: var(--btn-padding);
+    cursor: var(--btn-cursor);
+    border: var(--btn-border);
+    font: var(--btn-font);
+}
+
+.pangio-btn:active {
+    position: relative;
+    top: 1px;
+}
+
+/* Primary */
+.pangio-btn-primary {
+    background-color: var(--btn-primary-background-color);
+    color: var(--btn-primary-text-color);
+}
+
+.pangio-btn-primary:hover {
+    background-color: var(--btn-primary-hover-background-color);
+}
+
+/* Success */
+.pangio-btn-success {
+    background-color: var(--btn-success-background-color);
+    color: var(--btn-success-text-color);
+}
+
+.pangio-btn-success:hover {
+    background-color: var(--btn-success-hover-background-color);
+}
+
+/* Warn */
+.pangio-btn-warn {
+    background-color: var(--btn-warn-background-color);
+    color: var(--btn-warn-text-color);
+}
+
+.pangio-btn-warn:hover {
+    background-color: var(--btn-warn-hover-background-color);
+}
+
+/* Danger */
+.pangio-btn-danger {
+    background-color: var(--btn-danger-background-color);
+    color: var(--btn-danger-text-color);
+}
+
+.pangio-btn-danger:hover {
+    background-color: var(--btn-danger-hover-background-color);
+}

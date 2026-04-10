@@ -1,0 +1,81 @@
+:root {
+    /* -------------------------------------------------------------------------------------------------------------- */
+    /* --- Colors --------------------------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------------------------------------- */
+    --black:        #000000;
+    --white:        #FFFFFF;
+    --gray:         #C0C0C0;
+    --dark-gray:    #333333;
+    --dark-green:   #AAC8A7;
+    --light-green:  #C3EDC0;
+    --dark-red:     #E97777;
+    --light-red:    #FF9F9F;
+    --dark-yellow:  #F1C27B;
+    --light-yellow: #FFD89C;
+    --dark-blue:    #6096B4;
+    --light-blue:   #93BFCF;
+
+    /* -------------------------------------------------------------------------------------------------------------- */
+    /* --- Assignments to meaningful names -------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------------------------------------- */
+    --text-color: var(--white);
+    --background-color: var(--dark-gray);
+    --border-color: var(--gray);
+
+    /* -------------------------------------------------------------------------------------------------------------- */
+    /* --- Fonts ---------------------------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------------------------------------- */
+    --font-family: 'Quicksand';
+    --text-font-size: 18px;
+    --title-font-size: 35px;
+    --subtitle-font-size: 25px;
+
+    /* Text */
+    --text-font: 400 normal var(--text-font-size) var(--font-family), sans-serif;
+
+    /* Title */
+    --title-font: 800 normal var(--title-font-size) var(--font-family), sans-serif;
+
+    /* Subtitle */
+    --subtitle-font: 600 normal var(--subtitle-font-size) var(--font-family), sans-serif;
+
+    /* Input */
+    --input-font: 400 normal var(--text-font-size) var(--font-family), sans-serif;
+
+    /* Button */
+    --btn-font: 400 normal var(--text-font-size) var(--font-family), sans-serif;
+
+    /* -------------------------------------------------------------------------------------------------------------- */
+    /* --- Buttons -------------------------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------------------------------------- */
+    --btn-text-decoration: none;
+    --btn-cursor: pointer;
+    --btn-padding: 8px 16px;
+    --btn-border: none;
+    --btn-border-radius: 10px;
+    --btn-background-color-transition: background-color .3s ease;
+
+    /* Primary */
+    --btn-primary-background-color: var(--light-blue);
+    --btn-primary-text-color: var(--black);
+    --btn-primary-hover-background-color: var(--dark-blue);
+
+    /* Success */
+    --btn-success-background-color: var(--light-green);
+    --btn-success-text-color: var(--black);
+    --btn-success-hover-background-color: var(--dark-green);
+
+    /* Warn */
+    --btn-warn-background-color: var(--light-yellow);
+    --btn-warn-text-color: var(--black);
+    --btn-warn-hover-background-color: var(--dark-yellow);
+
+    /* Danger */
+    --btn-danger-background-color: var(--light-red);
+    --btn-danger-text-color: var(--black);
+    --btn-danger-hover-background-color: var(--dark-red);
+
+    /* -------------------------------------------------------------------------------------------------------------- */
+    /* --- Padding -------------------------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------------------------------------- */
+}
